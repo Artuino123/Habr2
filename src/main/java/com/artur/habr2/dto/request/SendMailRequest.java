@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SignUpRequest {
-    private String email;
-    private String password;
+public class SendMailRequest {
+    private String title;
+    private String targetEmail;
+    private String text;
 }

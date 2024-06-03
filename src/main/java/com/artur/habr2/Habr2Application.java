@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Habr2Application {
-
     public static void main(String[] args) {
         SpringApplication.run(Habr2Application.class, args);
     }
-
 }
